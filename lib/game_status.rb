@@ -34,3 +34,13 @@ def draw?(board)
     return true
   end
 end
+
+def over?(board)
+  if full?(board) == true
+    return true
+  elsif won?(board) == false
+    return false
+  else
+    return true
+  end
+end
