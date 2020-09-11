@@ -17,3 +17,12 @@ WIN_COMBINATIONS.each do |combo|
   end
   return false
 end
+
+def full?(board)
+  board.each do |element|
+    if element == '' || element == ' '
+      return false
+    end
+  end
+  return true
+end
