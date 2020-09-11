@@ -13,6 +13,7 @@ WIN_COMBINATIONS.each do |combo|
     if board[index] == 'X'
       wincombo.push(index)
   else
+    false
   end
   end
 end
