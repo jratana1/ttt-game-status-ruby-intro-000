@@ -15,4 +15,5 @@ WIN_COMBINATIONS.each do |combo|
     false
     end
   end
+  return false
 end
